@@ -1,0 +1,83 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7e4; /* Verde claro suave */
+  color: #2f4f4f; /* Verde oscuro elegante */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #66cdaa, #ffd700, #b22222); /* Verde, dorado, rojo */
+  background-size: 300% 300%;
+  animation: gradient 6s infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.95); /* Fondo blanco con un poco de transparencia */
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border: 2px solid #66cdaa; /* Verde */
+}
+
+h1 {
+  color: #228b22; /* Verde navideño */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  margin: 15px 0;
+  color: #2f4f4f; /* Verde oscuro */
+  font-size: 18px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff; /* Texto blanco */
+  background: #228b22; /* Verde principal */
+  border-radius: 8px;
+  border: 2px solid #ffd700; /* Dorado */
+  transition: background 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background: #b22222; /* Rojo oscuro al pasar el mouse */
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+}
+
+
+body{
+    margin: 300 px;
+    padding: 150px; 
+    background: url(https://i.pinimg.com/originals/1d/5b/f6/1d5bf61d3672d04d1def1471a902ba82.gif);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+
